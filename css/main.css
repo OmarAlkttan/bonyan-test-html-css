@@ -1,0 +1,155 @@
+header{
+    background-color: #eef1f6;
+    padding-bottom: 0 !important; 
+}
+
+nav{
+    padding: 0 8.6rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-right: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3.6rem;
+    list-style: none;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+}
+
+.hero-content{
+    flex-basis: 35%;
+    padding-left: 8.6rem;
+}
+
+.hero-heading{
+    font-size: 7.2rem;
+    margin-bottom: 2rem !important;
+}
+
+.hero-description{
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+}
+
+.hero-mail{
+    width: 80%;
+    height: 4.5rem;
+    background-color: #fff;
+    border-style: none;
+    border-radius: 2.5rem;
+    box-shadow: -0.5rem 0 #ff3e66, 0 1.5rem rgba(0, 0, 0, 0.01);
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4.5rem;
+}
+
+.hero-mail .label{
+    color: #dbcfd0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.2px;
+}
+
+.hero-mail .label .material-symbols-outlined{
+    margin-left: 1.5rem;
+}
+
+.hero-mail .label i{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.hero-mail .fa-arrow-right{
+    color: #ff3e66;
+    margin-right: 1.6rem;
+    font-size: 1.4rem;
+}
+
+.hero-customers{
+    display: flex;
+}
+
+.customer{
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    border: 0.3rem solid #fff;
+    margin-right: -1.5rem;
+}
+
+#customer-1{
+    z-index: 4;
+}
+
+#customer-2{
+    z-index: 3;
+}
+
+#customer-3{
+    z-index: 2;
+}
+
+#customer-4{
+    z-index: 1;
+}
+
+.hero-feedback{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.feedback-number{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-number strong{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.feedback-number span{
+    font-size: 1rem;
+}
+
+.hero-img{
+    flex-basis: calc(65% - 8.6rem);
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
+
