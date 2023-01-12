@@ -1,0 +1,39 @@
+@media (max-width: 550px) {
+  .nav-list{
+    display: none;
+  }
+
+  .right-nav span{
+    display: block;
+  }
+
+  .hero-content{
+    flex-basis: 95%;
+  }
+
+  .hero-heading{
+    font-size: 3.2rem;
+  }
+
+  .hero-mail{
+    width: 95%;
+  }
+
+  .hero-feedback{
+    align-self: flex-start;
+  }
+
+  .hero-img{
+    flex-basis: auto;
+  }
+}
+
+@media (max-width: 1100px){
+  html{
+    font-size: 56%;
+  }
+
+  .hero-heading{
+    font-size: 4.8rem;
+  }
+}

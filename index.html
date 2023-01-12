@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/queries.css">
     
     <link rel="stylesheet" href="resources/css/fontawesome.min.css">
     <link rel="stylesheet" href="resources/css/brands.min.css">
@@ -41,7 +42,12 @@
                     </ol>
                 </div>
             </div>
-            <button class="pink-btn">Get Started</button>
+            <div class="right-nav">
+                <button class="pink-btn">Get Started</button>
+                <span class="material-symbols-outlined">
+                    menu
+                    </span>
+            </div>
         </nav>
         <div class="hero">
             <div class="hero-content">
@@ -56,23 +62,31 @@
                     </span>
                     <i class="fa-regular fa-arrow-right"></i>
                 </div>
-                <div class="hero-feedback">
-                    <div class="hero-customers">
-                        <img id="customer-1" class="customer" src="imgs/people/customer-1.jpg" alt="customer-1">
-                        <img id="customer-2" class="customer" src="imgs/people/customer-2.jpg" alt="customer-2">
-                        <img id="customer-3" class="customer" src="imgs/people/customer-4.jpg" alt="customer-4">
-                        <img id="customer-4" class="customer" src="imgs/people/customer-5.jpg" alt="customer-5">
+                <div class="hero-feedback-img">
+                    <div class="hero-feedback"> 
+                        <div class="hero-customers">
+                            <img id="customer-1" class="customer" src="imgs/people/customer-1.jpg" alt="customer-1">
+                            <img id="customer-2" class="customer" src="imgs/people/customer-2.jpg" alt="customer-2">
+                            <img id="customer-3" class="customer" src="imgs/people/customer-4.jpg" alt="customer-4">
+                            <img id="customer-4" class="customer" src="imgs/people/customer-5.jpg" alt="customer-5">
+                        </div>
+                        <span class="feedback-number">
+                            <strong>30k</strong>
+                            <span>Feedback</span>
+                        </span>
                     </div>
-                    <span class="feedback-number">
-                        <strong>30k</strong>
-                        <span>Feedback</span>
-                    </span>
+                    <div id="hero-img-small" class="hero-img"></div>
                 </div>
             </div>
-            <div class="hero-img">
-                <img src="imgs/hero.png" alt="hero">
+            <div id="hero-img-big" class="hero-img">
+                <img id="hero-img" src="imgs/hero.png" alt="hero">
             </div>
         </div>
     </header>
+    <section>
+        <button onclick="showWidth()" style="color: black; width: 100px; height: 100px; background-color: lightgreen; z-index: 5;" >show width</button>
+    </section>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
