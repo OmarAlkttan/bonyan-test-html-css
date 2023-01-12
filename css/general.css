@@ -26,9 +26,16 @@ body{
 }
 
 .container{
-    margin: 0;
-    width: 100%;
     padding: 3.2rem 0;
+}
+
+.wide{
+    width: 100%;
+}
+
+.narrow{
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .main-heading{

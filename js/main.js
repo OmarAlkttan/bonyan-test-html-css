@@ -3,7 +3,7 @@ const img = document.getElementById("hero-img");
   const heroImgBig = document.getElementById("hero-img-big");
 
 window.addEventListener('resize', function(e){
-  if(window.innerWidth <551){
+  if(window.innerWidth <751){
   
     heroImgBig.removeChild(heroImgBig.firstElementChild); 
     heroImgSmall.appendChild(img);
