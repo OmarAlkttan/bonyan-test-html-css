@@ -226,14 +226,14 @@ nav{
 }
 
 .how-heading{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
 .how-desc{
     margin-top: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .how-element span{
@@ -269,5 +269,6 @@ nav{
 }
 
 .read-more{
+    font-size: 1.6rem;
     cursor: pointer;
 }
