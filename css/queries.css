@@ -89,7 +89,49 @@
     padding: 0 3rem;
   }
 
+  .learn-analysis{
+    flex-direction: column;
+    row-gap: 3rem;
+    margin: 6rem 0;
+  }
 
+  .heading-text{
+    font-size: 3.8rem;
+  }
+
+  .heading-desc{
+    font-size: 1.6rem;
+  }
+
+  .analysis-element{
+    margin: 0 3rem;
+  }
+
+  .learn-imgs{
+    flex-direction: column;
+    row-gap: 5rem;
+    margin: 3rem 2rem;
+  }
+
+  .video-desc{
+    margin-left: 0;
+  }
+
+  .video-desc h3{
+    font-size: 2.6rem;
+  }
+
+  .video-desc p{
+    font-size: 1.6rem;
+  }
+
+  .video-desc button{
+    font-size: 1.4rem;
+  }
+
+  .learn-arrows{
+    display: none;
+  }
 }
 
 @media (max-width: 1100px){
