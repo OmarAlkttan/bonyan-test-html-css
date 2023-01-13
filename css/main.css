@@ -299,7 +299,7 @@ nav{
     flex-basis: 55%;
 }
 
-.marketing-label{
+.pink-label{
     color: #fc5b7e;
     font-weight: 600;
     font-size: 1.6rem;
@@ -533,4 +533,66 @@ nav{
     border-radius: 3rem;
     font-weight: 600;
     cursor: pointer;
+}
+
+.download{
+    background-color: #eef1f6;
+    padding: 8rem 0;
+}
+
+.download-container{
+    max-width: 44rem;
+    margin: 0 auto 0 5%;
+    padding: 6rem 0;
+}
+
+.download .heading-text{
+    margin-top: 1rem;
+    font-size: 4.4rem;
+}
+
+.download .heading-desc{
+    font-size: 1.6rem;
+}
+
+.download-stores{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+
+.download-element{
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+.download-element span{
+    font-size: 3rem;
+}
+
+.download-element p{
+    margin: 0;
+    line-height: 1.2;
+}
+
+.download-element strong{
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+.ios{
+    background-color: #0e1133;
+    color: white;
+}
+
+.android{
+    background-color: white;
+    border: 3px solid #0e1133;
+    color: #0e1133;
+    padding-right: 0;
 }
