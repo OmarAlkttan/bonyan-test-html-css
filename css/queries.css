@@ -82,6 +82,13 @@
     font-size: 1.4rem;
   }
 
+  .flex-2-col{
+    flex-direction: column;
+    row-gap: 4rem;
+    align-items: center;
+    padding: 0 3rem;
+  }
+
 
 }
 
