@@ -154,7 +154,7 @@
     font-size: 1.4rem;
   }
 
-  .pricing{
+  .narrow{
     max-width: 80%;
   }
 
@@ -168,6 +168,7 @@
   .quote-author{
     justify-content: center;
   }
+  
 }
 
 @media (max-width: 1100px){
