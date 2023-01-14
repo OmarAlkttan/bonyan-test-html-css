@@ -136,6 +136,27 @@
   .download-container{
     margin-left: 7rem;
   }
+
+  .pricing-choices{
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+
+  .pricing-title .heading-text{
+    font-size: 3.4rem;
+  }
+
+  .pricing-title .heading-desc{
+    font-size: 1.4rem;
+  }
+
+  .pricing-annually{
+    font-size: 1.4rem;
+  }
+
+  .pricing{
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 1100px){
