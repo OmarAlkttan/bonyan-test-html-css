@@ -492,12 +492,13 @@ nav{
     align-items: flex-end;
 }
 
-.learn-img-2 span{
+.arrows span{
     font-size: 2.8rem;
     border: 2px solid #ebedf1;
     border-radius: 50%;
     padding: 1rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .learn-img-1 img{
@@ -713,3 +714,71 @@ nav{
     border-top-left-radius: 2rem ;
     border-bottom-left-radius: 2rem;
   }
+
+  .quote{
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?w=1060&t=st=1673696780~exp=1673697380~hmac=39fcf03cb8be8f738ce4bfd9d624bb1188a85ba944c486233ffa44d555bc6cf9");
+    background-color: #2c6ff4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7rem auto;
+  }
+
+  .quote-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 80rem;
+    margin: 0 auto;
+    column-gap: 5rem;
+    padding: 8rem 0;
+    color: white;
+  }
+
+  .quote-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .quote-img img{
+    width: 13rem;
+    border-radius: 50%;
+    
+  }
+
+  .quote-img p{
+    margin-top: 0;
+  }
+
+.five-stars{
+    color: #ffb848;
+}
+
+.quote-desc blockquote{
+    margin: 0 1rem 2rem 0;
+    font-size: 2rem;
+}
+
+.quote-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.author-career{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.quote-author span{
+    font-size: 1.8rem;
+}
