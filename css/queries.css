@@ -132,6 +132,10 @@
   .learn-arrows{
     display: none;
   }
+
+  .download-container{
+    margin-left: 7rem;
+  }
 }
 
 @media (max-width: 1100px){
