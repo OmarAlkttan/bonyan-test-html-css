@@ -814,3 +814,111 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+footer{
+    background-color: #eef1f6;
+    
+}
+
+footer .narrow{
+    padding-top: 3rem;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+footer hr{
+    color: #e3e7ee;
+    margin-bottom: 3rem;
+}
+
+.home{
+    flex-basis: 25%;
+}
+
+.home-desc{
+    font-size: 1.8rem;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    font-size: 1.4rem;
+}
+
+.social i{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+footer .read-more{
+    margin-bottom: 3rem;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer h3{
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+.footer-item{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.connection{
+    flex-basis: 20%;
+}
+
+.connection li{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.connection li span{
+    color: #7781fa;
+}
+
+.footer-download{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.ios-android{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.ios-android .ios{
+    color: #0e1133;
+    background-color: white;
+    border-radius: 0.7rem;
+}
+
+.ios-android .android{
+    border-radius: 0.7rem;
+    color: #0e1133;
+    background-color: inherit;
+    border-color: #e3e7ee;
+    padding-right: 1rem;
+}
+
+.copy-right{
+    font-size: 1.8rem;
+}
