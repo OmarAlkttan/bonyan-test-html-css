@@ -525,7 +525,7 @@ nav{
     margin-bottom: 4rem;
 }
 
-.video-desc button{
+.blue-btn{
     color: #0f125a;
     background-color: white;
     border: 2px solid #ebedf1;
@@ -596,3 +596,120 @@ nav{
     color: #0e1133;
     padding-right: 0;
 }
+
+.pricing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+  
+  .pricing-title{
+    text-align: center;
+  }
+  
+  .pricing-annually{
+    border: 2px solid #eff1f4;
+    border-radius: 1.5rem;
+    padding: 0.7rem 0.2rem;
+    font-size: 1.8rem;
+  }
+  
+  .monthly{
+    background-color: #ff3e66
+    ;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border-radius: 1.5rem;
+  }
+  
+  .yearly{
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .pricing-choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .pricing-choice{
+    flex-basis: 26%;
+    border: 2px solid #f0f1f5;
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+  
+  .pricing-choice h4{
+    font-size: 2.2rem;
+    margin: 1rem 0;
+  }
+  
+  .pricing-choice sup{
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  
+  
+  .pricing-choice h3 strong{
+    font-weight: 800;
+    font-size: 4.5rem;
+  }
+  
+  .pricing-choice p{
+    font-size: 1.4rem;
+  }
+  
+  .choice-feature-list{
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .choice-feature-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .choice-feature-item span{
+    color: #76a1f8;
+    background-color: #eef4fe;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+  }
+
+  .pricing-choice:nth-child(3) .choice-feature-item span{
+    color: #61d18c;
+    background-color: #effaf3;
+  }
+  
+  .pricing-choice hr{
+    color: f0f1f5;
+  }
+
+  .picked{
+    border: none;
+    border-top: 3px solid #ff3e66;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 14px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+  }
+
+  .picked::after{
+    content: "Most Popular";
+    position: absolute;
+    top: 6%;
+    right: 0%;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #2a6df5
+    ;
+    padding: 0.7rem 2rem;
+    border-top-left-radius: 2rem ;
+    border-bottom-left-radius: 2rem;
+  }

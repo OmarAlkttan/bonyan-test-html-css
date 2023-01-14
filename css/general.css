@@ -20,8 +20,9 @@ body{
     background-color: #ff3e66;
     color: #fff;
     border-style: none;
-    border-radius: 2.6rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    font-weight: 600;
     cursor: pointer;
 }
 
