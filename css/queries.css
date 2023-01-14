@@ -157,6 +157,17 @@
   .pricing{
     max-width: 80%;
   }
+
+  .quote-container{
+    flex-direction: column;
+    row-gap: 3rem;
+    text-align: center;
+    padding: 0 3rem;
+  }
+
+  .quote-author{
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1100px){
